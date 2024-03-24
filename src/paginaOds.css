@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    color:#fff
+}
+header {
+    background-color: #9b7f04;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+
+main {
+    background-color: #f0ecca;
+    padding: 20px;
+}
+
+
+section {
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+p {
+    margin-bottom: 20px;
+}

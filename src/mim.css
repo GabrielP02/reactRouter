@@ -1,0 +1,45 @@
+#td1{
+    top:50%;
+}
+#imgp{
+    width: 286px;
+
+        width: 200px; 
+        height: 200px;
+        border-radius: 60%;
+}
+
+#table{
+   background-color: rgb(28, 73, 126);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:20%;
+}
+
+body{
+    background-color: white;
+}
+#barra1{
+    top :0%;
+background-color: rgb(38, 112, 197);
+width: 100vw;
+height: 40vh;
+justify-content: justify;
+position:absolute;
+}
+
+h1{
+    color:white;
+}
+
+li{
+    color: black;
+    font-size: 20px;
+}
+#conteudo{
+    top:50%;
+    position:absolute;
+    right: 50%;
+    
+}
