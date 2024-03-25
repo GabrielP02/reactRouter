@@ -1,5 +1,7 @@
 import './paginaprincipal.css'
 import Footer from './components/footer.jsx'
+import imagemods from "../src/assets/ods.png"
+import imagemfoto from "../src/assets/foto.png"
 function Paginaprincipal (){
     return (
         
@@ -14,12 +16,12 @@ function Paginaprincipal (){
         <h2 id="t1">Sobre a Ods:</h2>
         
         <a href="/ods" id="saiba">
-            <img src="./src/assets/ods.png" />
+            <img src={imagemods} />
         </a>
         
         <h2 id="t2">Criador da pagina:</h2>
         <a href="mim" id="mim">
-            <img src="./src/assets/foto.png" />
+            <img src={imagemfoto} />
         </a>
         <Footer/>
         </>
