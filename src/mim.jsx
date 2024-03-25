@@ -1,5 +1,5 @@
 import'./mim.css'
-
+import imagemperfil from "../src/assets/perfil.jpg"
 function Mim(){
 return(
     <>
@@ -12,7 +12,7 @@ return(
             <tbody>
                 <tr>
                     <td>
-                        <img src="./src/assets/perfil.jpg" alt="Foto Gabriel" width="200px" id="imgp" />
+                        <img src={imagemperfil} alt="Foto Gabriel" width="200px" id="imgp" />
                     </td>
                     <td>
                         <h1>Gabriel Pereira</h1>
